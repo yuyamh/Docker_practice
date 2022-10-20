@@ -13,3 +13,6 @@ RUN apt update \
 COPY index.html /var/www/html/
 
 CMD ["apachectl", "-D", "FOREGROUND"]
+
+# ENTRYPOINT [ "echo", "default"]
+# CMD [ "addcmd" ]
